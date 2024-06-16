@@ -9,6 +9,16 @@
     <link rel="stylesheet" href="~/SparkInYou.styles.css" asp-append-version="true" />
 </head>
 <body>
-    
+    <header> 
+        <span class="logo">SparkInYou</span>
+        <nav>
+            <a href="/">Главная</a>
+            <a href="/contacts">Обратная связь</a>
+        </nav>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <footer>Все права защищены</footer>
 </body>
 </html>
